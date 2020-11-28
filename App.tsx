@@ -2,7 +2,7 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {AiOutlineHome, AiOutlineHistory} from 'react-icons/ai';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
+import Colors from './src/styles/colors';
 import Home from './src/components/pages/Home';
 import History from './src/components/pages/History';
 
